@@ -122,7 +122,9 @@ Features
 Installation
 ------------
 
-Todo.
+.. code-block:: console
+
+    pip install -e git://github.com/byashimov/yarn.git#egg=yarn
 
 
 Misc
