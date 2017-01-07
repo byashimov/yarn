@@ -1,6 +1,15 @@
 yarn
 ====
 
+.. image:: https://travis-ci.org/byashimov/yarn.svg?branch=develop
+    :alt: Build Status
+    :target: https://travis-ci.org/byashimov/yarn
+
+.. image:: https://codecov.io/gh/byashimov/yarn/branch/develop/graph/badge.svg
+    :alt: Codecov
+    :target: https://codecov.io/gh/byashimov/yarn
+
+
 It makes generator cache it's result and act like a regular sequence.
 
 .. code-block:: python
@@ -119,7 +128,7 @@ Todo.
 Misc
 ----
 
-- ``yarn`` is python 3 only.
+- ``yarn`` is python >= 3.5 only.
 - It's distributed under wtfpl_ license.
 - Generators are tricky, don't fuck with them :(
 
