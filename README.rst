@@ -54,7 +54,7 @@ Can be used to get multiple results:
     Gets from generator "1"
     ...
     Gets from generator "8"
-    9
+    8
 
     baz.cache
     [8]
