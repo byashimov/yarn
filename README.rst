@@ -10,7 +10,7 @@ yarn
     :target: https://codecov.io/gh/byashimov/yarn
 
 
-It makes generator cache it's result and act like a regular sequence.
+Makes generator cache it's result and act like a regular sequence.
 
 .. code-block:: python
 
@@ -22,7 +22,7 @@ It makes generator cache it's result and act like a regular sequence.
             yield y
 
     foo = yarn(gen(10))
-    foo[3]  # Iters generator
+    foo[3]  # Iterates the generator
     Gets from generator "0"
     Gets from generator "1"
     Gets from generator "2"
@@ -40,7 +40,7 @@ It makes generator cache it's result and act like a regular sequence.
     4
 
 
-Could be used to get multiple results:
+Can be used to get multiple results:
 
 .. code-block:: python
 
