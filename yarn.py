@@ -11,7 +11,7 @@ class yarn:
     in_memory_types = (Sequence, )
 
     def __init__(self, iterable):
-        # Better fail here than in a runtime
+        # Better fail immediately
         iter(iterable)
 
         if isinstance(iterable, self.in_memory_types):
