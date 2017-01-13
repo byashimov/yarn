@@ -147,7 +147,7 @@ Installation
 
 .. code-block:: console
 
-    pip install git+git://github.com/byashimov/yarn.git#egg=yarn
+    $ pip install git+git://github.com/byashimov/yarn.git#egg=yarn
 
 
 Misc
