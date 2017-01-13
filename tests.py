@@ -1,6 +1,8 @@
-import unittest
+import sys
 from collections import deque
 from itertools import tee
+
+import unittest2 as unittest
 
 from . import yarn
 
@@ -400,6 +402,7 @@ class TupleTest(InMemorySeqTestMixin, unittest.TestCase):
         self.seq = yarn(tuple(range(7)))
 
 
+@unittest.skipIf(sys.version_info < (3, 5), 'Doesn\'t support deque under 3.5')
 class DequeTest(InMemorySeqTestMixin, unittest.TestCase):
     def setUp(self):
         self.seq = yarn(deque(range(7)))

@@ -1,13 +1,15 @@
 sudo: false
 language: python
 python:
+  - "3.3"
+  - "3.4"
   - "3.5"
   - "3.6-dev"
 cache:
   directories:
     - $HOME/.cache/pip
 install:
-  - travis_retry pip install coverage codecov
+  - travis_retry pip install coverage codecov unittest2
 script:
   - coverage run -m unittest discover -t ../
   - python -m doctest README.rst

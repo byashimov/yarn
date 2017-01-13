@@ -153,7 +153,7 @@ Installation
 Misc
 ----
 
-- ``yarn`` is python >= 3.5 only.
+- ``yarn`` is python >= 3.3 only.
 - It's distributed under wtfpl_ license.
 - Generators are tricky, don't fuck with them :(
 
