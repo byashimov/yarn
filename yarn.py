@@ -12,7 +12,7 @@ class yarn:
 
     def __init__(self, iterable):
         # Better fail immediately
-        iter(iterable)
+        assert iter(iterable)
 
         if isinstance(iterable, self.in_memory_types):
             self.cache = iterable
